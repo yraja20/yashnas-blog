@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post 4: Learning Web Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"> 
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Yashna's Blog: Post 4</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="post5.html">Next Post</a></li>
+            <li><a href="post3.html">Previous Post</a></li>
+        
+        </ul>
+    </nav>
+
+    <main class="intmain">
+
+    <div class="container">
+        <article class="internal">
+            <h2>Learning Web Design</h2>
+
+            <figure>
+                <img src="images/fullsizepost4.jpg" alt="screenshot of fancy image wrap">
+            </figure>
+
+            <time datetime="2023-07-27 00:00">July 27, 2023</time>
+
+            <h3>Introduction</h3>
+                <p>I learned a lot about CSS reading these four chapters of Learning Web Design. A property I was excited to try out was using fancy image wrapping to fit the exact outline of an oddly-shaped image. I chose a picture of a golden retriever that was transparent, and using float, webkit-shape-outside, and webkit-shape-margin, I was able to get text to wrap tightly around it.</p>
+
+            <h3>Image Wrap Challenges</h3>
+                <p>I encountered a couple of challenges while doing this. First, I realized the image needed to stay a png rather than converting to a jpg, as converting it to a jpg added a white background rather than leaving it transparent. Second, no matter what I did the text kept showing up as wrapped around the entire “box” of the image rather than fitting tightly to the dog’s outline.</p>
+                <br>
+                <p>Thankfully, the book warns you about this and informed me that with Chrome, I needed to upload the files to a server to see the text wrap correctly. Local files show up incorrectly due to a security feature. So, I was able to quickly upload all my files to des117.space and then the text wrap worked fine. I thought this was a fun CSS exercise and learned how to use float and shape properties to create a specific image wrap.</p>
+
+            <h3>Other CSS Techniques</h3>
+                <p>Aside from this property, the other CSS lessons in this chapter were helpful. I felt that the flexbox and grid sections helped me understand these layout tools better. Even though I already understand them decently well, the images and specific examples clarified things I was unsure about and gave helpful shortcuts.</p>
+
+            <h3>Responsive Web Design</h3>
+                <p>Additionally, the responsive web design chapter with info on media queries was very insightful. As I am in the process of adding a media query to this blog to make it desktop-friendly, I am figuring out what things I need to tweak. This book chapter is something I will be referencing often through this process, and offers advice on what you need to change and why (fonts, font size, layout, etc.).</p>
+            
+            <h3>Final Thoughts</h3>
+                <p>I look forward to adjusting my blog and feel that the new CSS knowledge I’ve gained from these chapters will come in handy. The more I learn about CSS, the more exciting it is and I realize how much you can do with it. I will also be using the new techniques I've learned when I style my personal portfolio for the interactive narrative project.</p>
+
+        </article>
+
+        <aside>
+
+                <ul>References
+                    <li><a href="https://learningwebdesign.com/">Learning Web Design Book Website</a></li>
+                </ul>
+
+        </aside>
+    </div>
+    </main>
+
+    <footer>
+        <p>Designed by Yashna Rajaratnam</p>
+        <address>
+            Contact: <a href="mailto:&#121;&#097;&#115;&#104;&#110;&#097;&#046;&#114;&#097;&#106;&#097;&#114;&#097;&#116;&#110;&#097;&#109;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#121;&#097;&#115;&#104;&#110;&#097;&#046;&#114;&#097;&#106;&#097;&#114;&#097;&#116;&#110;&#097;&#109;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>
+        </address>
+    </footer>
+
+</body>
+</html>
